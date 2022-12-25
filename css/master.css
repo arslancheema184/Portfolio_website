@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: auto;
+  width: 90%;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6c757d;
+  /* 150% of font-size */
+}
+.test{
+  height: 23500px;
+  width: 500px;
+  background-color: #F3F3F3;
+}
+
+/* Navbar style */
+
+nav .navbar-nav li {
+  margin-left: 15px;
+}
+nav .navbar-brand{
+  margin-left: 70px;
+}
+#navbarNav{
+  margin-right: 70px;
+}
+nav .navbar-nav li a {
+  font-family: "Nunito", sans-serif;
+  font-weight:  600;
+  padding:  20px 0px;
+}
+.navbar-nav a :hover{
+  color: #ee8683;
+  background-color: #ee8683;
+}
